@@ -1,0 +1,32 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #333333;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: hsl(200, 15%, 55%);
+    color: hsl(200, 15%, 30%);
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+th{
+    text-align: center;;
+}
+#customer tr:nth-child(even){
+    background-color: cornflowerblue;
+}
+#customer tr:hover{
+    background-color: #2170b3;
+}
+#customer th{
+    background-color: darkcyan;
+}   
